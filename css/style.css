@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto&display=swap');
+
+
+
+*{
+    font-family:  'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../img/background/bg-greenn.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+h1,h5 {
+    color: black;
+}
+
+#main{
+    background-image: url(../img/background/Womansmokingweed-766ebf3527144025bf3e07ac7ae4bd99.jpg);
+}
+
+.bg-green{
+    background-color:#07db4a8f;
+}
+
+.bg-sesion{
+    background-color: rgba(250, 250, 250, 0.432);
+}
+
+#botonera{
+    background-color: #43ca8bcb;
+
+}
+    #botonera ul li img{
+        width: 30px;
+        ;
+    }
+
+    #botonera ul li a{
+        font-size: 1rem;
+        color: rgb(10, 10, 10);
+        /* Animacion subrayado */
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+
+    }
+    #botonera ul li a:hover{
+        color: rgb(241, 237, 234);
+        font-weight: 600;
+
+        background-size: 100% 2px;
+    }
+
+    #botonera img{
+        width: 300px;
+    }
+
+
+
+
+.anunciobox_white{ 
+    background-color: rgb(248, 249, 250); 
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem; 
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 5px 5px;   
+  }
+
+.section_mail{
+    font-size: 1.5rem;
+    background-color: rgb(180, 223, 189);
+}
+
+.bg_pipas{
+    background-image: url(../img/bg-iniciar\ sesion.jpg);
+
+}
+
+
